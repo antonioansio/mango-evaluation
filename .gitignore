@@ -1,0 +1,7 @@
+/node_modules
+/.next/
+/build
+.DS_Store
+next-env.d.ts
+.swc/
+*.swc
