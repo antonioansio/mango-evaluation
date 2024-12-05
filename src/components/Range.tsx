@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import RangeModal from "./RangeModal";
-import { RangeNormalProps, ModalConfig } from "@/types/range";
+import { RangeProps, ModalConfig } from "@/types/range";
 
-const RangeNormal: React.FC<RangeNormalProps> = ({
+const Range: React.FC<RangeProps> = ({
   minLimit,
   maxLimit,
   predefinedSteps,
@@ -220,4 +220,4 @@ const RangeNormal: React.FC<RangeNormalProps> = ({
   );
 };
 
-export default RangeNormal;
+export default Range;

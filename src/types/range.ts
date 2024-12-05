@@ -1,4 +1,4 @@
-export interface RangeNormalProps {
+export interface RangeProps {
   minLimit: number;
   maxLimit: number;
   predefinedSteps?: number[];
