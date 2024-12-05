@@ -15,7 +15,6 @@ export default function Exercise1() {
       try {
         const response = await fetch("/api/range-values");
         const data = await response.json();
-        console.log(data);
         setRangeValues(data);
       } catch (error) {
         console.error("Error fetching range values:", error);
